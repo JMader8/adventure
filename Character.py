@@ -13,10 +13,11 @@ class character(object):
         self.age = age
 
     def __str__(self):
-        name = character.name[self.name]
-        role = character.role[self.role]
-        profession = character.profession[self.profession]
-        age = character.age[self.age]
-        return str(name + role + profession + age)
+        name = str(character.name)
+        role = character.role
+        profession = character.profession
+        age = character.age
+
+        return (f"{name} + {role} + {profession} + {age}")
 
 
