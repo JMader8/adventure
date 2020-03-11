@@ -6,8 +6,20 @@
 
 global player
 
+def rockscissor():
+    attack = "attack"
+    defend = "defend"
+    ranged = "ranged"
+
+
+
+
+
 def goblin():
+
     print("The goblins, aye? Well, you have your reasons. I'll send ya over to em.")
+    print("Boo, im a goblin. Play rock paper scissors to the death or else.")
+
 
 
 def bullworm():
@@ -31,10 +43,10 @@ def intro():
 
     if input(choice) == "1":
         return goblin()
-    elif choice == "2":
+    if input(choice) == "2":
         return bullworm()
-    elif choice == "3":
-        return lazereel()
+
+
 
 
 intro()
